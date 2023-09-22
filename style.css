@@ -1,0 +1,36 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(./HorrorReadersPoll2.gif);
+    background-size: 100%;
+}
+h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#quote{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#new{
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffffff;
+    background-color: #007bdf;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+#new:hover{
+    background-color: #005db3;
+}
+@media only screen and (max-width: 480px;){
+   #new{
+    width: 100%;
+   } 
+}
